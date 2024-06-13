@@ -8,6 +8,9 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Work from "./work";
+import Footer from "./footer";
+import Member from "./member";
+import Motivation from "./motivation";
 
 const Landing = () => {
     useEffect(() => {
@@ -28,9 +31,12 @@ const Landing = () => {
         {/* Work */}
         <Work/>
         {/* Member */}
+        <Member/>
         {/* Motivation */}
+        <Motivation/>
         </div>
         {/* Footer */}
+        <Footer/>
 
     </div>
   )
