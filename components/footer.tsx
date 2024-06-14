@@ -24,7 +24,7 @@ const Footer = () => {
             </Link>
           ))}
         </div>
-        <p className='mt-8 text-xs text-slate-100/50 md:order-1 md:mt-0'>© Thousand Dreams Studio. All rights</p>
+        <p className='mt-8 text-xs text-slate-100/50 md:order-1 md:mt-0'>© Thousand Dreams Studio.</p>
         </div>
         </div>
     </div>

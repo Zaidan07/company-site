@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="pt-20">
       <Particles className="absolute inset-0 -z-10"/>
       <div className="text-center px-8 ">
-        <div className="mb-6" data-aos='fade-down'  >
+        {/* <div className="mb-6" data-aos='fade-down'  >
           <div className="relative inline-flex before:absolute before:inset-0">
             <Link href='https://github.com/Zaidan07' className="px-3 py-1 text-sm font-medium inline-flex items-center justify-center border rounded-full text-zinc-300 hover:text-white transition duration-150 ease-in-out w-full group border-slate-100/40" target="_blank">
             <span className="inline-flex relative">
@@ -19,7 +19,7 @@ const Hero = () => {
             </span>
             </Link>
           </div>
-        </div>
+        </div> */}
         <h1 className="pb-4 font-extrabold tracking-tight text-transparent text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-zinc-400 via-white to-zinc-500" data-aos='fade-down'>Thousand Dreams Studio</h1>
         <p className="mb-8 text-lg text-zinc-300/40 font-medium" data-aos='fade-down' data-aos-delay='200'>Unlimited Dreams, Endless Adventures</p>
         <div className="flex flex-col items-center max-w-xs gap-4 sm:justify-center sm:flex-row sm:inline-flex">

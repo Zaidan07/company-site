@@ -11,6 +11,7 @@ import Work from "./work";
 import Footer from "./footer";
 import Member from "./member";
 import Motivation from "./motivation";
+import Navbar from "./navbar";
 
 const Landing = () => {
     useEffect(() => {
@@ -22,8 +23,9 @@ const Landing = () => {
     })
   return (
     <div>
-        <div className="pt-32 pb-16 md:pb-32 relative max-w-5xl min-h-screen px-4 mx-auto sm:px-6 space-y-80">
         {/* Navbar */}
+        <Navbar/>
+        <div className="pt-32 pb-16 md:pb-32 relative max-w-5xl min-h-screen px-4 mx-auto sm:px-6 space-y-80">
         {/* Hero */}
         <Hero/>
         {/* About */}
