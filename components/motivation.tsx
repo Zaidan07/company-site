@@ -14,10 +14,10 @@ const Motivation: React.FC = () => {
   };
 
   const slides = [
-    "Accounting is our expertise. We'll take care of it, so you can focus on yours.",
-    "If you believe it will work, you'll see opportunities. If you believe it won't, you will see obstacles.",
-    'Success is not final, failure is not fatal: it is the courage to continue that counts.',
-    'Strength does not come from physical capacity. It comes from an indomitable will.',
+    '"Accounting is our expertise. Well take care of it, so you can focus on yours."',
+    '"If you believe it will work, youll see opportunities. If you believe it wont, you will see obstacles."',
+    '"Success is not final, failure is not fatal: it is the courage to continue that counts."',
+    '"Strength does not come from physical capacity. It comes from an indomitable will."',
   ];
 
   return (
@@ -25,7 +25,7 @@ const Motivation: React.FC = () => {
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index} >
-            <h1 className='pb-4 font-extrabold text-5xl text-center'>"{slide}"</h1>
+            <h1 className='pb-4 font-extrabold text-5xl text-center'>{slide}</h1>
           </div>
         ))}
       </Slider>
