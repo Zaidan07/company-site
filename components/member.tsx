@@ -84,8 +84,8 @@ const Member = () => {
               <div>
                 <img src={team.cover} alt="" className="w-full space-y-5 cursor-pointer" />
                 <div>
-                  <h1 className="">{team.title}</h1>
-                  <h3 className="">{team.subtitle}</h3>
+                  <h1 className="text-2xl font-bold">{team.title}</h1>
+                  <h3 className="text-xl font-semibold">{team.subtitle}</h3>
                   <div>
                     {team.role.map((Icon, roleindex)=>{
                       return <Icon className="w-4 h-4" key={roleindex}/>
