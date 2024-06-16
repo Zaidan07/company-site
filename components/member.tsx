@@ -80,7 +80,7 @@ const Member = () => {
       <div className="grid grid-cols-3 pt-20 gap-6 items-center justify-center">
         {teams.map((team, teamIndex) => {
           return (
-            <Card className="w-full max-w-sm border-none rounded-md">
+            <Card key={teamIndex} className="w-full max-w-sm border-none rounded-md">
               <div>
                 <img src={team.cover} alt="" className="w-full space-y-5 cursor-pointer" />
                 <div>
